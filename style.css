@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(32,42,68);
+}
+
+.container{
+    font-family: sans-serif;
+    font-size: large;
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+        align-content: space-between;
+    
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px 10px ;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+h3{
+    padding: 110px 100px 100px 100px;
+    text-align: center;
+    font-size: 50px;
+    background-image: url("img2.jpg");
+    background-size: cover;
+    color: aquamarine;
+}
+
+#about{
+    display: flex;
+    padding: 50px;
+}
+/* Slider container */
+.container1 {
+    
+    width: 100%; /* Adjust width as needed */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Slider content */
+.slider-content {
+    display: flex;
+    transition: transform 2s ease;
+}
+
+/* Article card */
+.article-card {
+    /* Adjust card width as needed */
+    margin-right: 20px; /* Adjust spacing between cards */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 125, 0.948);
+
+}
+
+/* Article card content */
+.article-content {
+    padding: 20px;
+    color: rgb(141, 245, 210);
+    font-family: sans-serif;
+}
+
+/* Previous and Next buttons */
+.prev-next-btn {
+    cursor: pointer;
+}
+
+/* Hide the next button when at the end */
+.next-btn.hide {
+    display: none;
+}
+
+/* Hide the previous button when at the beginning */
+.prev-btn.hide {
+    display: none;
+}
+
+
+.container2{
+    display: flex;
+    padding: 30px;
+
+}
+.img{
+    font-family: sans-serif;
+    color: aquamarine;
+}
+.content{
+    color:aquamarine;
+    font-family: sans-serif;
+}
